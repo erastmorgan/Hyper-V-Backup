@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HyperVBackup.Abstract", "HyperVBackup.Abstract\HyperVBackup.Abstract.csproj", "{8369ED40-B8C0-4ED1-9C80-AD076B906CEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delivery", "Delivery", "{D703D853-477A-46B8-960F-680A8199C100}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapters", "Adapters", "{D4CD2E62-0B2A-4B19-8F9C-21CA7CDC7501}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HyperVBackup.Delivery.Manager", "Delivery\HyperVBackup.Delivery.Manager\HyperVBackup.Delivery.Manager.csproj", "{0E290692-DE28-4BA0-9BA5-FDDB29EE9C58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HyperVBackup.Delivery.Abstract", "Delivery\HyperVBackup.Delivery.Abstract\HyperVBackup.Delivery.Abstract.csproj", "{53017AD2-92EC-4D85-9E2F-75C5FC438613}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HyperVBackup.Delivery.Adapters.YandexCloud", "Delivery\HyperVBackup.Delivery.Adapters.YandexCloud\HyperVBackup.Delivery.Adapters.YandexCloud.csproj", "{39249EB0-7659-4E73-99C1-6E84560630F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HyperVBackup.Delivery.Adapters.FileSystem", "Delivery\HyperVBackup.Delivery.Adapters.FileSystem\HyperVBackup.Delivery.Adapters.FileSystem.csproj", "{756283C3-A4D0-491A-AE39-EBC4DEABC1CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperVBackup.Data", "HyperVBackup.Data\HyperVBackup.Data.csproj", "{F7CAC08F-CA73-49E7-BE25-742A649E192E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperVBackup.Services", "HyperVBackup.Services\HyperVBackup.Services.csproj", "{8BFAAAF5-5423-40B0-AD7C-BF2FF9896F4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5460B6EA-B20A-460B-9409-24687A5A68C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperVBackup.Delivery.Tests", "Tests\HyperVBackup.Delivery.Tests\HyperVBackup.Delivery.Tests.csproj", "{FA8824A2-89D3-46B5-9599-8279230CAA58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HyperVBackup.Services.Tests", "Tests\HyperVBackup.Services.Tests\HyperVBackup.Services.Tests.csproj", "{72743878-AE4E-4DC1-80C4-9FC6067CB073}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8369ED40-B8C0-4ED1-9C80-AD076B906CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8369ED40-B8C0-4ED1-9C80-AD076B906CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8369ED40-B8C0-4ED1-9C80-AD076B906CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8369ED40-B8C0-4ED1-9C80-AD076B906CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E290692-DE28-4BA0-9BA5-FDDB29EE9C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E290692-DE28-4BA0-9BA5-FDDB29EE9C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E290692-DE28-4BA0-9BA5-FDDB29EE9C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E290692-DE28-4BA0-9BA5-FDDB29EE9C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53017AD2-92EC-4D85-9E2F-75C5FC438613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53017AD2-92EC-4D85-9E2F-75C5FC438613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53017AD2-92EC-4D85-9E2F-75C5FC438613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53017AD2-92EC-4D85-9E2F-75C5FC438613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39249EB0-7659-4E73-99C1-6E84560630F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39249EB0-7659-4E73-99C1-6E84560630F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39249EB0-7659-4E73-99C1-6E84560630F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39249EB0-7659-4E73-99C1-6E84560630F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756283C3-A4D0-491A-AE39-EBC4DEABC1CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756283C3-A4D0-491A-AE39-EBC4DEABC1CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756283C3-A4D0-491A-AE39-EBC4DEABC1CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756283C3-A4D0-491A-AE39-EBC4DEABC1CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7CAC08F-CA73-49E7-BE25-742A649E192E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7CAC08F-CA73-49E7-BE25-742A649E192E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7CAC08F-CA73-49E7-BE25-742A649E192E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7CAC08F-CA73-49E7-BE25-742A649E192E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BFAAAF5-5423-40B0-AD7C-BF2FF9896F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFAAAF5-5423-40B0-AD7C-BF2FF9896F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFAAAF5-5423-40B0-AD7C-BF2FF9896F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFAAAF5-5423-40B0-AD7C-BF2FF9896F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA8824A2-89D3-46B5-9599-8279230CAA58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA8824A2-89D3-46B5-9599-8279230CAA58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA8824A2-89D3-46B5-9599-8279230CAA58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA8824A2-89D3-46B5-9599-8279230CAA58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72743878-AE4E-4DC1-80C4-9FC6067CB073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72743878-AE4E-4DC1-80C4-9FC6067CB073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72743878-AE4E-4DC1-80C4-9FC6067CB073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72743878-AE4E-4DC1-80C4-9FC6067CB073}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D4CD2E62-0B2A-4B19-8F9C-21CA7CDC7501} = {D703D853-477A-46B8-960F-680A8199C100}
+		{0E290692-DE28-4BA0-9BA5-FDDB29EE9C58} = {D703D853-477A-46B8-960F-680A8199C100}
+		{53017AD2-92EC-4D85-9E2F-75C5FC438613} = {D703D853-477A-46B8-960F-680A8199C100}
+		{39249EB0-7659-4E73-99C1-6E84560630F1} = {D4CD2E62-0B2A-4B19-8F9C-21CA7CDC7501}
+		{756283C3-A4D0-491A-AE39-EBC4DEABC1CC} = {D4CD2E62-0B2A-4B19-8F9C-21CA7CDC7501}
+		{FA8824A2-89D3-46B5-9599-8279230CAA58} = {5460B6EA-B20A-460B-9409-24687A5A68C3}
+		{72743878-AE4E-4DC1-80C4-9FC6067CB073} = {5460B6EA-B20A-460B-9409-24687A5A68C3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FECD584-47EE-4670-8756-DEB70CA2DF7D}
+	EndGlobalSection
+EndGlobal
