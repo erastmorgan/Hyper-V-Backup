@@ -2,10 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
+    <ProjectReference Include="..\..\HyperVBackup.Data\HyperVBackup.Data.csproj" />
   </ItemGroup>
 
 </Project>

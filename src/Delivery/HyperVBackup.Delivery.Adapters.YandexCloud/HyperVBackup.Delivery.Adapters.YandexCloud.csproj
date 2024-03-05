@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="YandexDisk.Client" Version="1.3.27" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HyperVBackup.Delivery.Abstract\HyperVBackup.Delivery.Abstract.csproj" />
+  </ItemGroup>
 
 </Project>
