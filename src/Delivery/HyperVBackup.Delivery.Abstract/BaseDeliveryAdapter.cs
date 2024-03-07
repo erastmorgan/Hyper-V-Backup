@@ -22,7 +22,7 @@ namespace HyperVBackup.Delivery.Abstract
 
             var totalDataSize = new FileSize(sourceStream.Length);
 
-            while (readBytes == buffer.Length)
+            while (readBytes != 0)
             {
                 readBytes = await sourceStream.ReadAsync(buffer, 0, buffer.Length, cancellationToken);
                 await destinationStream.WriteAsync(buffer, 0, readBytes, cancellationToken);
@@ -32,9 +32,9 @@ namespace HyperVBackup.Delivery.Abstract
                     var currentDataSize = new FileSize(destinationStream.Length);
                     progress.Report(new SizeChangeStatus(totalDataSize, currentDataSize));
                 }
-            }
 
-            cancellationToken.ThrowIfCancellationRequested();
+                cancellationToken.ThrowIfCancellationRequested();
+            }
         }
     }
 }

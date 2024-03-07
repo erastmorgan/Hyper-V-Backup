@@ -5,4 +5,8 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HyperVBackup.Delivery.Abstract\HyperVBackup.Delivery.Abstract.csproj" />
+  </ItemGroup>
+
 </Project>
